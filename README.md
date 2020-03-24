@@ -19,7 +19,9 @@ The dataset used can be found at https://sites.google.com/site/limkwanhui/dataco
 **userVisits-Toro-allPOI.csv**: Sample input data in the form of user-POI visits, with the following columns/fields: "photoID", "userID", "dateTaken", "poiID", "poiTheme", "poiFreq", "seqID"  
 **userInt-URelTime-Toro.csv**: Sample input data in the form of user interest levels, with the following columns/fields: "userID", "Cultural", "Amusement", "Shopping", "Structure", "Sport", "Beach"  
 ## Results Files
-**recommend_POI_Results.csv**: The results of Tour Solution
+**4ClusterMethod.csv**: The results of Tour Solution
+**4ClusterMethod_average_200.csv**: The average results of Tour Solution
+**4ClusterMethod_statistics_200.csv**: The statistical calculation for each group of different clustering methods, including cosin similarity, jaccard similarity, group sieze
 ### Parameters
 - 'algo': The method used to do the clustering 
 - 'startNode/endNode': The start and end node for the itinerary. We assume all the group has the same start and end node everyday. 
